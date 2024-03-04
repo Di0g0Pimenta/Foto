@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camera</title>
+    <link rel="stylesheet" href="./camera.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video id="videoElement" autoplay></video>
+      <div class="icons">
+        <img class="close" src="/assets/icons/x.svg" alt="" />
+        <img class="flash" src="/assets/icons/zap-off.svg" alt="" />
+        <img class="galary" src="/assets/icons/image.svg" alt="" />
+        <img class="change-camera" src="/assets/icons/refresh-ccw.svg" alt="" />
+      </div>
+      <img class="camera-button" onclick="capturePhoto()" src="/assets/button_camera.svg" alt="">
+      <div class="footer">
+        <button class="button-change">Vídio</button>
+        <button class="button-change">Foto</button>
+      </div>
+    </div>
+  </body>
+  <script src="./camera.js"></script>
+</html>
