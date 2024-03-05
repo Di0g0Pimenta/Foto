@@ -20,49 +20,10 @@ body {
   align-items: center;
 }
 .camera-button {
-  top: 75%;
+  top: 85%;
   position: absolute;
   text-align: center;
   z-index: 1;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 120px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  box-sizing: border-box;
-  z-index: 1;
-}
-
-.button-change {
-  width: 120px;
-  height: 40pxF;
-  background: #333;
-  border-radius: 50px;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  display: inline-flex;
-  border: none;
-  cursor: pointer;
-  outline: none;
-
-  transition: background-color 0.3s;
-
-  color: white;
-  font-size: 24px;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  word-wrap: break-word;
-}
-
-.button-change:hover {
-  background-color: #1f1f1f;
 }
 
 .close {
@@ -84,7 +45,7 @@ body {
 }
 
 .galary {
-  top: 727px;
+  top: 827px;
   left: 28px;
 
   position: absolute;
@@ -93,7 +54,7 @@ body {
 }
 
 .change-camera {
-  top: 727px;
+  top: 827px;
   right:28px;
 
   position: absolute;
