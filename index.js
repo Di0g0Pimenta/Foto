@@ -8,14 +8,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Verifique se há uma imagem capturada no localStorage
   const capturedImage = localStorage.getItem("capturedImage");
 
-  // Se houver uma imagem capturada, defina como profile-image
   if (capturedImage) {
     profileImage.src = capturedImage;
   } else {
-    // Se não houver uma imagem capturada, use uma imagem padrão
     profileImage.src = "./assets/profile.svg";
   }
 });
